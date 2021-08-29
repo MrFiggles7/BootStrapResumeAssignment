@@ -1,0 +1,18 @@
+.about{
+
+  &-container{
+
+  }
+
+  &-image{
+    @include media-breakpoint-down(md) {
+
+      display: none;
+
+    }
+  }
+
+  &-text{
+    padding-top: 6rem;
+  }
+}

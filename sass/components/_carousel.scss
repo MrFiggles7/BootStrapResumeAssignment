@@ -1,0 +1,49 @@
+.carousel-caption{
+  transition: background-color .2s;
+
+  h5{
+    font-weight: 900;
+    font-size: 1.6rem;
+    font-style: normal;
+    @include media-breakpoint-down(lg) {
+
+        font-size: 1rem;
+
+    }
+    @include media-breakpoint-down(md) {
+
+        font-size: 1rem;
+
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+
+      font-size: .4rem;
+
+  }
+  @include media-breakpoint-down(md) {
+
+      font-size: .6rem;
+
+  }
+  font-size: 1.2rem;
+  font-style: italic;
+  color: $color-black;
+  background-color: rgba($color-white, .6);
+  font-weight: bold;
+  border-radius: 8px;
+
+  &:hover{
+    text-decoration: none;
+    color: $color-black;
+    background-color: rgba($color-white, .7);
+    cursor: pointer;
+  }
+}
+
+.carousel{
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 0;
+}

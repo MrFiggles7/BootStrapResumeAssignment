@@ -1,0 +1,94 @@
+body{
+  font-family: 'Hind';
+  font-weight: 900;
+}
+
+.logo{
+  font-family: 'Syncopate';
+  position: relative;
+  font-size: 2rem;
+  transition-property: transform;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right bottom, rgba($color-primary, 1), rgba($color-primary-dark, 1));
+}
+
+.nav-item--text{
+  font-size: 1.2rem;
+  transition-property: transform;
+  transition: .2s;
+
+  &:hover{
+    transform: translateY(-.1rem);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right bottom, rgba($color-primary, 1), rgba($color-primary-dark, 1));
+  }
+}
+
+
+.header{
+
+  &-box{
+    &--text{
+      font-size: 12rem;
+      font-weight: 900;
+    }
+  }
+  &-text{
+    color: $color-black;
+    text-shadow: .05rem .05rem .25rem $color-dark-grey;
+    &--primary{
+      font-weight: 900;
+      font-size: 4.5rem;
+    }
+
+    &--secondary{
+      font-weight: 900;
+      font-size: 2rem;
+    }
+
+    &--tertiary{
+      font-weight: 900;
+      font-size: 3rem;
+    }
+  }
+}
+
+.about{
+
+  &-text{
+    font-weight: 900;
+  }
+}
+
+.navbar-collapse{
+  max-height: none;
+}
+
+.default{
+  &-heading{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &-paragraph{
+    font-size: 1.1rem;
+  }
+}
+
+.btn{
+  font-size: 1.4rem;
+  font-weight: 900;
+  transition: all .2s;
+
+  &:hover{
+    transform: translateY(-.25rem);
+    box-shadow: .1rem .1rem .2rem $color-light-grey;
+  }
+}
+
+.btn-primary{
+  color: white;
+
+}

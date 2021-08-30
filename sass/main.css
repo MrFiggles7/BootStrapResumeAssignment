@@ -8738,6 +8738,7 @@ body {
   color: white; }
 
 .header-box {
+  overflow-x: hidden;
   position: absolute;
   border: 8px solid rgba(175, 179, 183, 0.5);
   border-radius: 4px;

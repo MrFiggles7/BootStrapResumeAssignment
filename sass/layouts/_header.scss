@@ -5,6 +5,7 @@
   }
 
   &-box{
+    overflow-x: hidden;
     position: absolute;
     border: 8px solid rgba($color-light-grey, .5);
     border-radius: 4px;

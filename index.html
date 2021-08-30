@@ -50,7 +50,7 @@
     </div>
 </nav>
 <div class="container pl-7 pr-7">
-<div id="list-example" class="list-group">
+<div id="list-example" class="list-group d-sm-block d-none">
     <a class="list-group-item list-group-item-action mt-5 mb-55" href="#navbar">Home</a>
     <a class="list-group-item list-group-item-action mb-55" href="#about">About Me</a>
     <a class="list-group-item list-group-item-action mb-55" href="#portfolio">Portfolio</a>
@@ -76,8 +76,8 @@
                 <div class="container-fluid">
                     <div class="row">
                     <div class="col pt-4">
-                        <button class="btn btn-primary">HIRE ME</button>
-                        <button class="btn btn-outline-primary">PORTFOLIO</button>
+                        <a class="btn btn-primary" href="#contact">HIRE ME</a>
+                        <a class="btn btn-outline-primary" href="#portfolio">PORTFOLIO</a>
                     </div>
                     </div>
                 </div>
@@ -91,13 +91,13 @@
     </div>
 </header>
 <section class="about" id="about">
-    <div class="container-fluid about-container pl-xxl-7 pr-xxl-7 pb-lg-6 pb-xs-4 pb-6 pt-lg-6">
+    <div class="container-fluid about-container pl-xxl-7 pr-xxl-7 pl-xl-6 pr-xl-6 pl-lg-5 pr-lg-5 pb-lg-6 pb-xs-4 pb-6 pt-lg-6">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 pt-5">
                 <img src="CanIHelp.png" class="about-image">
             </div>
 
-            <div class="col-lg-6 about-text">
+            <div class="col-lg-6 pr-sm-6 pr-md-55 pr-lg-55 pr-xl-0 about-text">
                 <h3 class="default-heading">About Me</h3>
                 <hr class="line">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -112,9 +112,26 @@
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active default-paragraph" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, assumenda beatae consectetur cum deserunt dolorum ducimus eos expedita iste, molestias nam nulla qui quis recusandae repellendus reprehenderit, sunt suscipit voluptas?</div>
-                    <div class="tab-pane fade default-paragraph" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda blanditiis deserunt ducimus eaque enim ex expedita hic illum minus nam nihil non, praesentium provident suscipit ut voluptatem. Corporis, quibusdam.</div>
-                    <div class="tab-pane fade default-paragraph" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias fugit iusto tempora ullam unde voluptas! Consequuntur ea exercitationem ipsum laudantium, minus pariatur perferendis porro quasi ratione rerum sunt, voluptate?</div>
+                    <div class="tab-pane fade show active default-paragraph" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        Hello!<br>
+                        My name is Riley, and I am a Web Developer based out of Southeastern Wisconsin.
+                        When I'm not working, you can generally find me out camping or enjoying time at home with my family.
+                        My hobbies include: travelling, playing piano and building mechanical keyboards.
+                        I love to find new and exciting projects to work on and can't wait to see what I can do to help you
+                        and your business/personal endeavors.
+                    </div>
+                    <div class="tab-pane fade default-paragraph mt-5" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        I have a High School diploma from Waukesha North High School out of Waukesha, Wisconsin.
+                        I am currently finishing up my second year of an associate's degree in Web and Software Development
+                        at Waukesha County Technical College and plan to continue furthering my education in Web Design,
+                        as well as Data Science and Applied Mathematics.
+                    </div>
+                    <div class="tab-pane fade default-paragraph mt-5" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        I have experience developing various projects using languages such as:
+                        Java, C#, SQL, Javascript, HTML/CSS, and C++, as well as using various front-end frameworks.
+                        I have developed these skills through educational as well as personal projects, and love to work
+                        with technologies such as IoT and Mobile.
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,7 +139,7 @@
 </section>
 
 <section class="portfolio" id="portfolio">
-    <div class="container-fluid pl-lg-7 pr-lg-7 pb-lg-6 pt-lg-6">
+    <div class="container-fluid pl-xl-6 pr-xl-6 pl-lg-5 pl-md-4 pr-md-4 pr-lg-5 pb-lg-6 pt-lg-6 pl-0 pr-0">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -133,21 +150,21 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="restaurantphoto.PNG" class="d-block w-100" alt="...">
-                        <a class="carousel-caption ml-xl-6 mr-xl-6 ml-0 mr-md-0 d-none d-md-block" href="https://restaurant1-riley.netlify.app/">
+                        <a class="carousel-caption" href="https://restaurant1-riley.netlify.app/">
                         <h5>Restaurant Website</h5>
                         <p>Custom CSS single page website with full page transitions</p>
                     </a>
                     </div>
                     <div class="carousel-item">
                         <img src="rpsls.PNG" class="d-block w-100" alt="...">
-                        <a class="carousel-caption ml-xl-6 mr-xl-6 ml-0 mr-md-0 d-none d-md-block" href="https://rpsls-riley.netlify.app/">
+                        <a class="carousel-caption" href="https://rpsls-riley.netlify.app/">
                             <h5>RPSLS</h5>
                             <p>Javascript game built using emojis</p>
                         </a>
                     </div>
                     <div class="carousel-item">
                         <img src="equilibrium.PNG" class="d-block w-100" alt="...">
-                        <a class="carousel-caption ml-xl-6 mr-xl-6 ml-0 mr-md-0 d-none d-md-block" href="https://test-band-site.netlify.app/">
+                        <a class="carousel-caption" href="https://test-band-site.netlify.app/">
                             <h5>Equilibrium</h5>
                             <p>Landing Page for a band</p>
                         </a>

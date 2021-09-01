@@ -1,11 +1,10 @@
 .header{
   &-container{
-    //height: 90vh;
-    //width: 90%;
+
   }
 
   &-box{
-    overflow-x: hidden;
+
     position: absolute;
     border: 8px solid rgba($color-light-grey, .5);
     border-radius: 4px;
@@ -21,6 +20,10 @@
       left: 0;
       transform: translate(0, -60%);
       color: rgba($color-light-grey, .5);
+
+      &_container{
+        overflow: hidden;
+      }
     }
   }
 

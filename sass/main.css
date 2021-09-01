@@ -8738,7 +8738,6 @@ body {
   color: white; }
 
 .header-box {
-  overflow-x: hidden;
   position: absolute;
   border: 8px solid rgba(175, 179, 183, 0.5);
   border-radius: 4px;
@@ -8753,6 +8752,8 @@ body {
     left: 0;
     transform: translate(0, -60%);
     color: rgba(175, 179, 183, 0.5); }
+    .header-box--text_container {
+      overflow: hidden; }
 .header-image--container {
   background-color: transparent; }
 .header-text {
